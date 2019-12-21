@@ -1,5 +1,6 @@
 #Author: Martín Manuel Gómez Míguez
 #GitHub: @Correlo
+#Date: 21/12/2019
 
 import numpy as np
 import matplotlib.pyplot as plt
