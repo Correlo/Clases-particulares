@@ -27,7 +27,7 @@ Z = np.sqrt(np.real(z*z.conjugate()))
 
 if Z==0j: 
     
-    raise ValueError('El numero complejo introducido no es válido')
+    raise ValueError('El numero complejo introducido no es valido')
 
 #Phase 
 phase_z = cmath.phase(z)
