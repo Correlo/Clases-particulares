@@ -71,11 +71,12 @@ plt.close()
 #Streamline plot
 plt.figure(2, figsize=(6,6))
 #Draw the normalized vector
-plt.plot(X,Y,'.w')
 plt.streamplot(X,Y,Ex/E_m,Ey/E_m, color=E_m)
 plt.colorbar(fraction=0.046, pad=0.04).ax.set_ylabel(r'$\vec{E}$ (N/C)')
 plt.xlabel('x (m)')
 plt.ylabel('y (m)')
+plt.xlim(np.amin(X),np.amax(X))
+plt.ylim(np.amin(Y),np.amax(Y))
 plt.show()
 plt.close()
 
